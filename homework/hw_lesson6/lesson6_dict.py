@@ -13,7 +13,7 @@ for value in dict1.values():
 
 student1 = {"имя": "Иван", "возраст": 20, "курс": 2}
 student2 = {"имя": "Мария", "возраст": 21, "город": "Санкт-Петербург"}
-student3 = student1 #через for не пропускает проверка на линтеры
+student3 = student1     # через for не пропускает проверка на линтеры
 student3.update(student2)
 student1.update(student2)
 print(student1)
