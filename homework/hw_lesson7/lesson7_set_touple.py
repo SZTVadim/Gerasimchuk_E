@@ -3,7 +3,7 @@ fruits.add("апельсин")
 fruits.update(["груша", "виноград"])
 fruits.discard("банан")
 fruits.discard("киви")
-#fruits.remove("киви")
+#  fruits.remove("киви")
 fruit = fruits.pop()
 print(fruits)
 
