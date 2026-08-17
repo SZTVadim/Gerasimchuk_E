@@ -3,6 +3,7 @@ def calculate_total(price, tax_percent):
         return 'Ошибка'
     return price * (tax_percent/100 + 1)
 
+
 def get_level(points):
     if points >= 100:
         return "Эксперт"
@@ -11,6 +12,7 @@ def get_level(points):
     if points >= 20:
         return "Начинающий"
     return "Новичок"
+
 
 def process_status(status):
     match status:
