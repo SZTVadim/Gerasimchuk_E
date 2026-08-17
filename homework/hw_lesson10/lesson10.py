@@ -1,6 +1,6 @@
 statuses = ["queued", "running", "testing", "deploy", "done"]
 first, *middle, last = statuses
-statuses2 = [*statuses, *["failed", "skipped"]]
+statuses2 = [*middle, *["failed", "skipped"]]
 print(first)
 print(last)
 print(statuses2)
