@@ -10,8 +10,9 @@ class Book:
     def is_long(self):
         return True if self.pages > 300 else False
 
+
 book1 = Book('Унесенные ветром', 'Margaret Mitchel', 600)
-book2 = Book('Десять негритят', 'Агата Кристи', 247 )
+book2 = Book('Десять негритят', 'Агата Кристи', 247)
 book3 = Book('Белый клык', 'Джек Лондон', 301)
 
 print(book1.get_info())
@@ -20,6 +21,7 @@ print(book2.get_info())
 print(book2.is_long())
 print(book3.get_info())
 print(book3.is_long())
+
 
 class BankAccount:
     def __init__(self, owner, balance=0):
@@ -38,6 +40,7 @@ class BankAccount:
 
     def get_balance(self):
         return self.balance
+
 
 my_bank_account = BankAccount('Kate', 50000)
 my_bank_account.deposit(10000)
