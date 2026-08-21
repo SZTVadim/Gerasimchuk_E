@@ -8,7 +8,7 @@ class Book:
         return f"'{self.title}' автор {self.author}, {self.pages} стр."
 
     def is_long(self):
-        return True if self.pages > 300 else False
+        return self.pages > 300
 
 
 book1 = Book('Унесенные ветром', 'Margaret Mitchel', 600)
