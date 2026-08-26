@@ -5,9 +5,7 @@ class TestCase:
         self.duration = duration
 
     def can_run(self):
-        if self.status == "new":
-            return True
-        return False
+        return self.status == "new"
 
     def finish(self, result, duration):
         if not self.can_run():
