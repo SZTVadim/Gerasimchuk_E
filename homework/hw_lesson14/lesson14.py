@@ -24,6 +24,7 @@ class Cat(Animal):
     def make_sound(self):
         print(f"{self.name} говорит: Мяу!")
 
+
 class Zoo:
     def __init__(self, name):
         self.name = name
