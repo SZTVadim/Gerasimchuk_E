@@ -44,6 +44,7 @@ def animal_sound(animal: Animal):
     animal.make_sound()
 #  Это пример полиморфизма, так как метод make_sound есть сразу и у Dog, и у Cat
 
+
 dog1 = Dog("Бобик", 3)
 dog2 = Dog("Шарик", 5)
 cat1 = Cat("Мурка", 2)
