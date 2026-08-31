@@ -35,7 +35,7 @@ class Book:
 
     @classmethod
     def create_from_string(cls, string):
-        title, author= string.split("|")
+        title, author = string.split("|")
         return cls(title, author)
 
     def get_info(self):
