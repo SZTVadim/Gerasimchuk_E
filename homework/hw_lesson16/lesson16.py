@@ -5,4 +5,4 @@ def find_log_entries(file, type_log):
                 print(line)
 
 
-find_log_entries( 'data_test/application.log', 'ERROR')
+find_log_entries('data_test/application.log', 'ERROR')
