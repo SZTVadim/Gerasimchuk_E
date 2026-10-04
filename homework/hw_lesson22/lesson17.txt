@@ -1,0 +1,15 @@
+//input[@placeholder='Search']      или      input[placeholder='Search']
+
+//button[contains(@class, "oxd-main-menu-button")]    или    button[class*="oxd-main-menu-button"]
+
+(//div[contains(@class, "oxd-sheet oxd-sheet--rounded oxd-sheet--white orangehrm-dashboard-widget")])[2]
+
+//button[@class="oxd-glass-button orangehrm-upgrade-button"]  или  button[class="oxd-glass-button orangehrm-upgrade-button"]
+
+//img[@class="oxd-userdropdown-img"] или img[class="oxd-userdropdown-img"]
+
+//span[text()=('Dashboard')]/../..  или //li[a[span[text()='Dashboard']]]
+
+//i[@class='oxd-icon bi-gear-fill orangehrm-leave-card-icon'] или  i[class='oxd-icon bi-gear-fill orangehrm-leave-card-icon']
+
+//li[span[@title="Engineering"]]   или   li>span[title="Engineering"]
