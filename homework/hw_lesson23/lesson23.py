@@ -1,8 +1,7 @@
-from sys import exec_prefix
-
 from playwright.sync_api import Page, expect
 
 url = 'https://www.qa-practice.com/forms/practice-form'
+
 
 def test_visible(page: Page):
     page.goto(url)
@@ -37,7 +36,6 @@ def test_visible(page: Page):
     locator_list.get_by_text("Maths").click()
     locator_span = page.locator("span[class=subject-tag]")
     expect(locator_span, 'Предмет не ввелся').to_have_text('Maths ×')
-
 
     locator_hobbies = page.locator("input#hobbies_0")
     locator_hobbies.click()
